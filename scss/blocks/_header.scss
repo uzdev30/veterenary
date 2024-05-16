@@ -1,0 +1,89 @@
+@import "../mixins/mixins";
+
+.header {
+  background-color: rgba(249, 248, 248, 1);
+  margin-left: -20px;
+  margin-right: -20px;
+  &__list {
+    margin-left: 200px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  &__num:hover {
+    color: orange;
+  }
+
+  &__num:active {
+    color: rgb(127, 121, 121);
+    opacity: 2;
+  }
+
+  &__item {
+    margin-left: -50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__img {
+    margin-top: 6px;
+    margin-right: 6px;
+  }
+
+  &__fullstop {
+    background-color: orange;
+    width: 5px;
+    height: 5px;
+    border: 2px solid none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+.head {
+  background-color: white;
+
+  &__list {
+    background-color: #fff;
+    @include list();
+  }
+
+  &__item {
+    margin-top: 20px;
+  }
+
+  &__link {
+    margin-top: 30px;
+    transform: translateY(100px);
+    margin-right: 40px;
+    @include link();
+    color: black;
+    margin-bottom: 20px;
+  }
+
+  &__link:hover {
+    border-bottom: 2px solid yellow;
+  }
+
+  &__link:active {
+    color: grey;
+  }
+
+  &__logo {
+    margin-left: 20px;
+    margin-top: -20px;
+  }
+
+  &__logo:hover {
+    color: rgb(194, 192, 192);
+  }
+
+  &__logo:active {
+    color: grey;
+  }
+}

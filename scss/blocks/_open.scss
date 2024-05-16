@@ -1,0 +1,126 @@
+.open__img {
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: -12px;
+}
+
+.check {
+  display: flex;
+
+  &__left {
+    margin-left: 250px;
+    margin-right: 80px;
+  }
+
+  &__links {
+    display: flex;
+    margin-top: 30px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #949494;
+    font-family: Futura PT;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  &__linc {
+    color: #333;
+    font-family: Futura PT;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+  }
+
+  &__head {
+    width: 640px;
+    margin-top: 30px;
+    color: #333;
+    font-family: Futura PT;
+    font-size: 74px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; /* 91.429% */
+  }
+
+  &__span {
+    color: #ffbd54;
+    font-family: Futura PT;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+  }
+
+  &__txt {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: #949494;
+    font-family: Futura PT;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    width: 650px;
+  }
+
+  &__right {
+    &--list {
+      list-style: none;
+    }
+
+    &--item {
+      width: 305px;
+      margin-top: 20px;
+      height: 450px;
+      background-color: #fff;
+    }
+
+    &--date {
+      width: 85px;
+      border: none;
+      margin-left: 220px;
+      margin-top: 10px;
+    }
+
+    &--head {
+      margin-top: 20px;
+      width: 182px;
+      color: #000;
+      font-family: Futura PT;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 25px; /* 113.636% */
+    }
+
+    &--txt {
+      margin-top: 20px;
+      margin-bottom: 30px;
+      width: 305px;
+      color: #949494;
+      font-family: Futura PT;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px; /* 125% */
+    }
+
+    &--link {
+      text-decoration: none;
+      color: #333;
+      font-family: Futura PT;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  }
+}

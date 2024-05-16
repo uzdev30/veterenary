@@ -1,0 +1,16 @@
+.modal {
+  width: 850px;
+
+  &__list {
+    @include list();
+  }
+  &__link {
+    padding: 20px;
+    background: white;
+  }
+}
+
+.btn {
+  background: white !important;
+  border: none !important;
+}

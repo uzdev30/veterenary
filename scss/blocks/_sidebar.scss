@@ -1,0 +1,46 @@
+.sidebar {
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 200px;
+  background-image: url(/images/mask.png);
+  background-repeat: no-repeat;
+
+  &__head {
+    text-align: start;
+    padding-top: 90px;
+    margin-left: 200px;
+    color: #fff;
+    font-family: Futura PT;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 41.667% */
+  }
+
+  &__img {
+    display: block;
+    margin-left: 770px;
+    margin-top: -309px;
+  }
+
+  &__input {
+    border: 2px solid black;
+    margin-left: 200px;
+    margin-top: 40px;
+    width: 335px;
+    height: 40px;
+  }
+
+  &__btn {
+    background-color: rgba(51, 51, 51, 1);
+    margin-left: 20px;
+    color: #fff;
+    font-family: Futura PT;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 188px;
+    height: 45px;
+  }
+}

@@ -1,0 +1,22 @@
+.point {
+  &__list {
+    margin-left: -60px;
+    margin-right: -20px;
+    @include list();
+  }
+
+  &__dog {
+    margin-top: 150px;
+    margin-bottom: -110px;
+  }
+
+  &__head {
+    margin-left: 550px;
+    color: #333;
+    font-family: Futura PT;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}

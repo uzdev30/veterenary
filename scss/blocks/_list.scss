@@ -1,0 +1,79 @@
+.list {
+  @include list();
+  flex-wrap: wrap;
+  margin-bottom: 150px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  &__item {
+    margin-top: 20px;
+
+    width: 305px;
+    box-shadow: 0.1px 0.1px 1px 0px;
+  }
+
+  &__head {
+    width: 182px;
+    color: #000;
+    font-family: Futura PT;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 113.636% */
+  }
+
+  &__txt {
+    width: 244px;
+    color: #949494;
+    font-family: Futura PT;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+  }
+
+  &__date {
+    margin-top: 10px;
+    border: none;
+    width: 80px;
+    margin-left: 200px;
+    color: #949494;
+    font-family: Futura PT;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #333;
+    font-family: Futura PT;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+  }
+
+  &__span {
+    padding: 20px;
+    border: 1px solid none;
+    text-decoration: none;
+    background-color: #333;
+    border-radius: 3px;
+    color: #fff;
+    font-family: Futura PT;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin-left: 550px;
+    transform: translateY(1000px);
+  }
+}
+.__ {
+  margin-left: -10px;
+  margin-right: -10px;
+}

@@ -1,0 +1,10 @@
+@mixin list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+@mixin link {
+  text-decoration: none;
+  color: #000000;
+}

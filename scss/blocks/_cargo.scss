@@ -1,0 +1,111 @@
+.cargo {
+  margin-left: -12px;
+  margin-right: -12px;
+  @include list;
+  margin-top: 200px;
+
+  &__right {
+    width: 100%;
+    background-color: rgba(51, 51, 51, 1);
+  }
+
+  &__question {
+    margin-left: 750px;
+    margin-top: 20px;
+  }
+  &__feedback {
+    margin-top: -80px;
+    margin-left: 520px;
+  }
+
+  &__left {
+    width: 25%;
+  }
+
+  &__list {
+    @include list();
+  }
+
+  &__head {
+    margin-top: -100px;
+    margin-left: 80px;
+    color: #fff;
+    font-family: Futura PT;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  &__text {
+    color: #949494;
+    font-family: Futura PT;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    width: 360px;
+    line-height: 20px; /* 125% */
+    margin-left: 80px;
+  }
+
+  &__link {
+    margin-left: 80px;
+    text-decoration: none;
+    color: #fff;
+    width: 300px;
+    font-family: Futura PT;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid none;
+    background-color: #ffbd54;
+  }
+
+  &__input {
+    height: 50px;
+    width: 375px;
+    margin-top: 10px;
+    margin-left: 80px;
+  }
+
+  &__area {
+    width: 375px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    margin-top: 10px;
+  }
+
+  &__right--img {
+    margin-top: -60px;
+  }
+
+  &__biggest {
+    margin-top: -355px;
+    margin-left: 75px;
+  }
+
+  &__bigger {
+    margin-top: -380px;
+    margin-left: -40px;
+  }
+
+  &__big {
+    margin-top: -420px;
+    margin-left: 2px;
+  }
+
+  &__smal {
+    margin-top: -475px;
+    margin-left: -28px;
+  }
+
+  &__smallest {
+    margin-top: -520px;
+    margin-left: -20px;
+  }
+}
